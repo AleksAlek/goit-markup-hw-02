@@ -1,7 +1,95 @@
+:root {
+  --logo-basic: #000000;
+  --logo-web: #2196f3;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --hover-color: #2196f3;
+  --logo-studio-footer: #ffffff;
+  --office-address-color: #ffffff;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
+
+  /* Footer block */
+  --footer-color: #2f303a;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-/*  Header */
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+/*  Logo */
+.logo {
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--logo-basic);
+}
+
+.logo-web {
+  color: var(--logo-web);
+}
+
+/* Main navigation */
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--hover-color);
+}
+
+/* Contacts header */
+.contacts-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.contacts-header:hover,
+.contacts-header:focus {
+  color: var(--hover-color);
+}
 
 /* Footer */
+.footer {
+  background-color: var(--footer-color);
+}
+
+.logo-studio {
+  color: var(--logo-studio-footer);
+}
+
+.office-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--office-address-color);
+}
+
+.contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--contacts-footer-color);
+}
