@@ -62,7 +62,8 @@ address {
 }
 
 .link:hover,
-.link:focus {
+.link:focus,
+.link-visited:visited {
   color: var(--hover-color);
 }
 
