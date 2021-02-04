@@ -1,4 +1,5 @@
 :root {
+  /* Text color */
   --logo-basic: #000000;
   --logo-web: #2196f3;
   --main-text-color: #212121;
@@ -8,12 +9,19 @@
   --office-address-color: #ffffff;
   --contacts-footer-color: rgba(255, 255, 255, 0.6);
 
+  --hero-title-color: #ffffff;
+  --hero-button-color: #ffffff;
+
+  /* Hero block */
+  --hero-color: #2f303a;
+
   /* Footer block */
   --footer-color: #2f303a;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
 }
 
 li {
@@ -35,6 +43,7 @@ address {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+
   color: var(--logo-basic);
 }
 
@@ -48,6 +57,7 @@ address {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+
   color: var(--main-text-color);
 }
 
@@ -62,6 +72,7 @@ address {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+
   color: var(--secondary-text-color);
 }
 
@@ -83,6 +94,7 @@ address {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+
   color: var(--office-address-color);
 }
 
@@ -91,5 +103,6 @@ address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: var(--contacts-footer-color);
 }
