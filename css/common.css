@@ -14,6 +14,9 @@
 
   --filter-button-hover-color: #ffffff;
 
+  /* Button */
+  --background-button: #2196f3;
+
   /* Hero block */
   --hero-color: #2f303a;
 
@@ -85,6 +88,19 @@ address {
 }
 
 /* Main */
+
+.color-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  display: block;
+  border: none;
+
+  background-color: var(--background-button);
+  color: var(--hero-button-color);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

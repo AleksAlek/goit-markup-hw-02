@@ -14,17 +14,6 @@
   color: var(--hero-title-color);
 }
 
-.order-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  display: block;
-
-  color: var(--hero-button-color);
-}
-
 /* Наши преимущества */
 
 .advantage-title {
